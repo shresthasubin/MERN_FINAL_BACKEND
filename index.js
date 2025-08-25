@@ -20,7 +20,7 @@ app.use("/uploads", express.static("uploads/"));
 // Connect to the database
 app.use(
   cors({
-    origin: ["http://localhost:5173", 'https://mern-frontend-three-dun.vercel.app/'],
+    origin: ["http://localhost:5173", 'https://mern-frontend-three-dun.vercel.app'],
     credentials: true,
   })
 );
